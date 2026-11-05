@@ -1,0 +1,82 @@
+{
+  "one": {
+    "name": "",
+    "lat": 52.52437,
+    "lon": 13.41053,
+    "arrival": "2026-11-04T17:00:00Z",
+    "vertexType": "NORMAL"
+  },
+  "all": [
+    {
+      "place": {
+        "name": "Berlin Hauptbahnhof",
+        "stopId": "at-Railway-Current-Reference-Data-2026_de:11000:900003200:1:51",
+        "importance": 0.03556062653660774,
+        "lat": 52.52498,
+        "lon": 13.369114000000001,
+        "level": -2.0,
+        "tz": "Europe/Berlin",
+        "departure": "2026-11-04T16:44:00Z",
+        "vertexType": "TRANSIT",
+        "modes": [
+          "HIGHSPEED_RAIL",
+          "LONG_DISTANCE",
+          "COACH",
+          "NIGHT_RAIL",
+          "REGIONAL_RAIL",
+          "SUBURBAN",
+          "SUBWAY",
+          "TRAM",
+          "BUS"
+        ]
+      },
+      "duration": 16,
+      "k": 1
+    },
+    {
+      "place": {
+        "name": "Abgeordnetenhaus (Berlin)",
+        "stopId": "de-DELFI_de:11000:900012105::2",
+        "importance": 0.00013891035632696003,
+        "lat": 52.506454,
+        "lon": 13.379986000000002,
+        "tz": "Europe/Berlin",
+        "departure": "2026-11-04T16:36:00Z",
+        "description": "Bushalt Stresemannstraße vor Niederkirchnerstraße",
+        "vertexType": "TRANSIT",
+        "modes": [
+          "BUS"
+        ]
+      },
+      "duration": 24,
+      "k": 1
+    },
+    {
+      "place": {
+        "name": "Berlin Hauptbahnhof",
+        "stopId": "at-Railway-Current-Reference-Data-2026_de:11000:900003200:2:53",
+        "importance": 0.03556062653660774,
+        "lat": 52.52501300000001,
+        "lon": 13.369410500000003,
+        "level": -2.0,
+        "tz": "Europe/Berlin",
+        "departure": "2026-11-04T16:44:00Z",
+        "vertexType": "TRANSIT",
+        "modes": [
+          "HIGHSPEED_RAIL",
+          "LONG_DISTANCE",
+          "COACH",
+          "NIGHT_RAIL",
+          "REGIONAL_RAIL",
+          "SUBURBAN",
+          "SUBWAY",
+          "TRAM",
+          "BUS"
+        ]
+      },
+      "duration": 16,
+      "k": 1
+    }
+  ],
+  "source": "Transitous /api/v6/one-to-all, arriveBy=true, 2026-11-04T17:00Z, maxTravelTime30; retrieved 2026-11-03; subset"
+}

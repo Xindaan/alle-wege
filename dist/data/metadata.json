@@ -1,0 +1,258 @@
+{
+  "osmTimestamp": "2026-11-02T21:21:26Z",
+  "retrieved": "2026-11-03; Zusatz 2026-11-05 (gleicher OSM-Stand)",
+  "nodes": 460743,
+  "edges": 628977,
+  "excludedNodes": 17671,
+  "components": 15520,
+  "cities": 971,
+  "excludedCities": [],
+  "source": "OpenStreetMap contributors / Overpass Europe (dresel.systems)",
+  "license": "ODbL-1.0",
+  "projection": "equirectangular centered at 51N, 10.5E",
+  "speedKmh": {
+    "motorway": 130,
+    "trunk": 85,
+    "primary": 65,
+    "secondary": 55,
+    "links": 40,
+    "tertiary": 45,
+    "unclassified": 35,
+    "residential": 25,
+    "service": 15,
+    "living_street": 7
+  },
+  "speedRule": "motorway: min(130 km/h, numeric maxspeed); other roads: min(class speed, 85% of numeric maxspeed); roundabouts max 25 km/h",
+  "limitations": [
+    "no traffic",
+    "turn restrictions only at major junctions (motorway/trunk/primary); no junction delay",
+    "local residential roads only in selected areas; tertiary roads included",
+    "foreign roads: motorway/trunk/primary within about 20 km of Germany plus the Sylt access corridor",
+    "car ferries inside Germany (OSM ways, split ways joined, ends on roads or snapped up to 150 m, landings linked by local roads up to 3 km, max 60 km); OSM duration or 15 km/h plus fixed waiting time, no timetable",
+    "Sylt transfers use fixed planned-crossing times plus terminal buffer, no timetable",
+    "city centers snapped to road nodes within 5 km"
+  ],
+  "geometryToleranceMeters": 30,
+  "motorwayProfile": "edge[9]: [km, forward limit, backward limit]; 0 explicit unlimited, -1 unknown; motorway links excluded",
+  "networkComponentsRetained": 1,
+  "transfers": {
+    "osmTimestamp": "2026-11-02T21:21:26Z",
+    "checked": "2026-11-03",
+    "autozug": {
+      "name": "Autozug Niebüll–Westerland",
+      "rideMinutes": 35,
+      "terminalBufferMinutes": 45
+    },
+    "faehre": {
+      "name": "Autofähre Havneby–List",
+      "rideMinutes": 40,
+      "terminalBufferMinutes": 30
+    },
+    "assumption": "Planned crossing plus fixed terminal buffer; no timetable, capacity, night-service or cancellation model.",
+    "sources": [
+      "https://www.autozug-sylt.de/de/fahrplan?stage=Live",
+      "https://www.syltshuttle.de/syltshuttle-de/reiseinformationen/anreisetipps-2049338",
+      "https://www.frs-syltfaehre.de/faq",
+      "https://www.frs-syltfaehre.de/fahrplan-2026",
+      "https://www.frs-syltfaehre.de/informationen/anreise-und-haefen/havneby-auf-roemoe"
+    ]
+  },
+  "localRoadAreas": [
+    "Gärtringen",
+    "Schleiz/Zollgrün/Tanna/Burgk",
+    "Lehnitz bei Oranienburg",
+    "Sylt/Niebüll/Rømø/Danish access corridor",
+    "Pfakofen",
+    "Heidesee (Friedersdorf)"
+  ],
+  "zusatz": {
+    "osmTimestamp": "2026-11-02T21:21:26Z",
+    "zusatz-0": {
+      "ways": 103465,
+      "neu": 102788
+    },
+    "zusatz-1": {
+      "ways": 162428,
+      "neu": 161039
+    },
+    "zusatz-2": {
+      "ways": 175398,
+      "neu": 174198
+    },
+    "zusatz-3": {
+      "ways": 57695,
+      "neu": 57047
+    },
+    "grenzsaum": {
+      "abgefragt": 278629,
+      "uebernommen": 88070,
+      "km": 20
+    },
+    "faehranleger": {
+      "wege": 401,
+      "maxKm": 3,
+      "fangKm": 0.15,
+      "Anleger im Ausland": 165,
+      "angebunden": 100,
+      "kein Netz in Reichweite": 18,
+      "Ende verschoben": 11,
+      "Anleger ohne Strasse": 8
+    },
+    "faehren": {
+      "uebernommen": 104,
+      "mitDuration": 80,
+      "ausgelassen": {
+        "sylt eigen": 1,
+        "kein PKW": 5,
+        "verkettet": 21,
+        "Enden nicht im Strassennetz": 114,
+        "Ende im Ausland": 2
+      },
+      "fehlendInDeutschland": [
+        {
+          "name": "Mattinger Fähre",
+          "osm": 5079909,
+          "vonImNetz": true,
+          "nachImNetz": false
+        },
+        {
+          "name": "Weserfähre Schweringen",
+          "osm": 5784465,
+          "vonImNetz": false,
+          "nachImNetz": true
+        },
+        {
+          "name": "Ginsheim - Langenaue",
+          "osm": 11276280,
+          "vonImNetz": true,
+          "nachImNetz": false
+        },
+        {
+          "name": "Rheinfähre Zons-Urdenbach",
+          "osm": 23914745,
+          "vonImNetz": true,
+          "nachImNetz": false
+        },
+        {
+          "name": "Fähre Brobergen",
+          "osm": 25959175,
+          "vonImNetz": false,
+          "nachImNetz": true
+        },
+        {
+          "name": "Fähre Pritzerbe",
+          "osm": 26175686,
+          "vonImNetz": true,
+          "nachImNetz": false
+        },
+        {
+          "name": "Fähre Klotten",
+          "osm": 26397206,
+          "vonImNetz": true,
+          "nachImNetz": true
+        },
+        {
+          "name": "Fähre Calbe (Saale)",
+          "osm": 26728967,
+          "vonImNetz": false,
+          "nachImNetz": true
+        },
+        {
+          "name": "Gierfähre Arneburg",
+          "osm": 27744125,
+          "vonImNetz": false,
+          "nachImNetz": true
+        },
+        {
+          "name": "Regnitzfähre Pettstadt",
+          "osm": 38964538,
+          "vonImNetz": false,
+          "nachImNetz": false
+        },
+        {
+          "name": "Autofähre Lindwerder",
+          "osm": 59265663,
+          "vonImNetz": false,
+          "nachImNetz": true
+        },
+        {
+          "name": "Moselfähre Briedel",
+          "osm": 62062829,
+          "vonImNetz": true,
+          "nachImNetz": true
+        },
+        {
+          "name": "Havelfähre Neuendorf",
+          "osm": 71319988,
+          "vonImNetz": false,
+          "nachImNetz": false
+        },
+        {
+          "name": "Mühlenfähre",
+          "osm": 123612802,
+          "vonImNetz": true,
+          "nachImNetz": false
+        },
+        {
+          "name": "95: Käpt'n Nicks Piratenschlacht",
+          "osm": 209771599,
+          "vonImNetz": false,
+          "nachImNetz": false
+        },
+        {
+          "name": "Seilzugfähre Siebeneichen-Fitzen",
+          "osm": 220048016,
+          "vonImNetz": false,
+          "nachImNetz": true
+        },
+        {
+          "name": "Herrenwörth",
+          "osm": 368436360,
+          "vonImNetz": false,
+          "nachImNetz": true
+        },
+        {
+          "name": "Fähre",
+          "osm": 425768581,
+          "vonImNetz": false,
+          "nachImNetz": true
+        },
+        {
+          "name": "Travemünde – Rostock",
+          "osm": 533470203,
+          "vonImNetz": true,
+          "nachImNetz": false
+        },
+        {
+          "name": "Columbushopper",
+          "osm": 1100842035,
+          "vonImNetz": true,
+          "nachImNetz": true
+        }
+      ],
+      "maxKm": 60,
+      "kmhOhneDuration": 15,
+      "wartepauschale": "10 min bis 2 km, sonst 30 min; kein Fahrplan"
+    }
+  },
+  "abbiegeverbote": {
+    "geladen": 73585,
+    "zugeordnet": 54918,
+    "ausgelassen": {
+      "kein einfaches Verbot": 531,
+      "PKW ausgenommen": 73,
+      "Via ist ein Weg": 1358,
+      "nur bedingt oder andere Fahrzeuge": 111,
+      "andere Art": 62,
+      "Weg nicht im Netz": 18665,
+      "Via mitten im Weg": 2
+    },
+    "widerspruechlich": 10,
+    "abschneidend": 67,
+    "ausserhalbNetz": 620,
+    "imNetz": 54221,
+    "viaKnoten": 47231,
+    "format": "turns: [Via-Knoten, Von-Kante, Nach-Kante, 1=only_* sonst no_*]",
+    "umfang": "Von- oder Nach-Weg motorway/trunk/primary(_link); PKW; ohne bedingte Verbote und Via-Wege"
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "groesse": {
+    "altMB": 12.7,
+    "neuMB": 23.5,
+    "altKnoten": 276912,
+    "neuKnoten": 455893,
+    "altKanten": 369186,
+    "neuKanten": 624127,
+    "neuOrte": 971,
+    "altOrte": 971
+  },
+  "luecken": {
+    "A 72 Leipzig-Sued": {
+      "altMaxKm": 0.026,
+      "neuMaxKm": 0.026
+    },
+    "B 58 Ahlen/Beckum": {
+      "altMaxKm": 1.396,
+      "neuMaxKm": 0.107
+    },
+    "B 3 Babenhaeuser Landstrasse": {
+      "altMaxKm": 0.607,
+      "neuMaxKm": 0.02
+    },
+    "Friedrich-Ebert-Damm Hamburg": {
+      "altMaxKm": 0.785,
+      "neuMaxKm": 0.018
+    }
+  },
+  "faehren": {
+    "anzahl": 103,
+    "beispiele": [
+      "Autofähre Havneby–List",
+      "Rheinfähre Neuburg",
+      "Fähre Nordheim",
+      "Fähre Kaub - Engelsburg",
+      "Kanalfähre Landwehr",
+      "Schlossfähre",
+      "Rheinfähre Helene",
+      "Rheinfähre Linz-Remagen",
+      "Rheinfähre Landskrone",
+      "Fähre Rumpenheim",
+      "Autoschnellfähre Bad Godesberg-Niederdollendorf",
+      "Kanalfähre Ostermoor"
+    ]
+  },
+  "routen": {
+    "Berlin -> München": {
+      "altMin": 298,
+      "neuMin": 298
+    },
+    "Hamburg -> Köln": {
+      "altMin": 212,
+      "neuMin": 213
+    },
+    "Konstanz -> Lörrach": {
+      "altMin": 143,
+      "neuMin": 94
+    },
+    "Cuxhaven -> Itzehoe": {
+      "altMin": 139,
+      "neuMin": 138
+    }
+  }
+}

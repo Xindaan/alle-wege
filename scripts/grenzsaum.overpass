@@ -1,0 +1,9 @@
+// T-0003: Hauptstrassen im Grenzraum, je Grenzrechteck (SOUTH,WEST,NORTH,EAST ersetzen, siehe GRENZRECHTECKE in zusatz_netz.py).
+// Deutsche Wege sind schon im Netz (gleiche OSM-ID); Zuschnitt auf ~20 km in prepare_data.py.
+[out:json][timeout:600][maxsize:1073741824];
+(
+  way(SOUTH,WEST,NORTH,EAST)[highway~"^(motorway|trunk|primary)(_link)?$"][access!~"^(no|private)$"][motor_vehicle!~"^(no|private)$"][motorcar!~"^(no|private)$"];
+  way(SOUTH,WEST,NORTH,EAST)[highway~"^(motorway|trunk|primary)(_link)?$"][motor_vehicle~"^(yes|designated|permissive|destination)$"][motorcar!~"^(no|private)$"];
+  way(SOUTH,WEST,NORTH,EAST)[highway~"^(motorway|trunk|primary)(_link)?$"][motorcar~"^(yes|designated|permissive|destination)$"];
+);
+out body;>;out skel qt;

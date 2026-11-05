@@ -1,0 +1,144 @@
+{
+  "osmTimestamp": "2026-11-02T21:21:26Z",
+  "ways": 959379,
+  "nodes": 5206147,
+  "missingNodes": 0,
+  "missingWayTags": 0,
+  "recovery": "Way sets from all four strips complete; partial middle files ended in node print at line 5; exact ID gaps filled; tags joined by OSM way ID from matching-date source.",
+  "localSupplement": {
+    "osmTimestamp": "2026-11-02T21:21:26Z",
+    "elements": 64139,
+    "ways": 11241,
+    "nodes": 52898,
+    "sha256": "3d35ebbf8012410c4a8742099e13089799bb74e5d554b5e434fbbffeaabdb452",
+    "query": "scripts/local-roads.overpass",
+    "areas": [
+      "Gaertringen",
+      "Schleiz/Zollgruen/Tanna/Burgk",
+      "Lehnitz bei Oranienburg",
+      "Sylt",
+      "Pfakofen"
+    ],
+    "source": "https://ovp.dresel.systems/api/interpreter",
+    "places": "scripts/extra-places.json; OSM place nodes, verified through Transitous geocoder on 2026-11-03",
+    "populationNote": "population=0 for extra places means not used for population ranking, not actual zero inhabitants"
+  },
+  "syltSupplements": [
+    {
+      "file": "sylt-roads.json",
+      "query": "scripts/sylt-roads.overpass",
+      "osmTimestamp": "2026-11-02T21:21:26Z",
+      "sha256": "1d31673dab4a4e60700536d06518a85cd89a0acf73096dc547b891cfe5f0c6ac",
+      "elements": {
+        "way": 18281,
+        "node": 82265
+      },
+      "source": "https://ovp.dresel.systems/api/interpreter"
+    },
+    {
+      "file": "sylt-transport.json",
+      "query": "scripts/sylt-transport.overpass",
+      "osmTimestamp": "2026-11-02T21:21:26Z",
+      "sha256": "acf427a8fb6771d705b69a3e42d866737bc1c200827b7f48ab8954cf514787f4",
+      "elements": {
+        "way": 284,
+        "node": 2217
+      },
+      "source": "https://ovp.dresel.systems/api/interpreter"
+    }
+  ],
+  "syltTransfers": {
+    "osmTimestamp": "2026-11-02T21:21:26Z",
+    "checked": "2026-11-03",
+    "autozug": {
+      "name": "Autozug Niebüll–Westerland",
+      "rideMinutes": 35,
+      "terminalBufferMinutes": 45
+    },
+    "faehre": {
+      "name": "Autofähre Havneby–List",
+      "rideMinutes": 40,
+      "terminalBufferMinutes": 30
+    },
+    "assumption": "Planned crossing plus fixed terminal buffer; no timetable, capacity, night-service or cancellation model.",
+    "sources": [
+      "https://www.autozug-sylt.de/de/fahrplan?stage=Live",
+      "https://www.syltshuttle.de/syltshuttle-de/reiseinformationen/anreisetipps-2049338",
+      "https://www.frs-syltfaehre.de/faq",
+      "https://www.frs-syltfaehre.de/fahrplan-2026",
+      "https://www.frs-syltfaehre.de/informationen/anreise-und-haefen/havneby-auf-roemoe"
+    ]
+  },
+  "syltTopology": "Separate boarding/unloading road terminals in Niebüll and Westerland; shared OSM IDs; car train follows complete rail path; ferry follows OSM way 34142186; real road approach via Rømø causeway.",
+  "zusatzT0003": {
+    "osmTimestamp": "2026-11-02T21:21:26Z",
+    "retrieved": "2026-11-05",
+    "source": "https://ovp.dresel.systems/api/interpreter",
+    "queries": [
+      "scripts/zusatz-de.overpass",
+      "scripts/grenzsaum.overpass",
+      "scripts/faehren.overpass",
+      "scripts/faehranleger.overpass"
+    ],
+    "fetch": "scripts/hole_zusatz.sh",
+    "merge": "scripts/zusatz_netz.py",
+    "files": {
+      "faehren.json": {
+        "sha256": "990f6a3aa4e6b3e0d9290659d7f98f5452a3d5efcf8bf824e536285a1b558e91",
+        "bytes": 559254
+      },
+      "grenzsaum-0.json": {
+        "sha256": "6f918962b6de7e2f5acc92199175e99d3a1d707853debf91b31f2142f496cde9",
+        "bytes": 133809799
+      },
+      "grenzsaum-1.json": {
+        "sha256": "98a3187fcc88375b8aa34830fdf174c43bb6966995c942a916bb03d142863140",
+        "bytes": 53240111
+      },
+      "grenzsaum-2.json": {
+        "sha256": "249a524a73eecb473073b6f93caab7d03afd5d45c643578f620be002c0c6c6e3",
+        "bytes": 24680923
+      },
+      "grenzsaum-3.json": {
+        "sha256": "a73b37ba9a787abbff7f2ed4d016e0f02ee5f3776420d7a8b54830657e903ea9",
+        "bytes": 41933379
+      },
+      "grenzsaum-4.json": {
+        "sha256": "a3c04aafaa06f7ae83829854bb42118d52f1722286183d189b06726fe8b04545",
+        "bytes": 14937541
+      },
+      "grenzsaum-5.json": {
+        "sha256": "f9b0eb0d0229f1ad0cb72cc303b73f4a467627262c6870f3975b9d8e791e9e39",
+        "bytes": 2844391
+      },
+      "zusatz-0.json": {
+        "sha256": "14e95ed7cf9fc462b63d68ba5b7362ef016a6eab796fbc10981c40234429a499",
+        "bytes": 115822471
+      },
+      "zusatz-1.json": {
+        "sha256": "1e94a802526ea97aff34608ff49fc4881d6160700e76fbab8333abdc71a0f764",
+        "bytes": 182812028
+      },
+      "zusatz-2.json": {
+        "sha256": "d8b8bcd70688e7b04a2fa906abbb9eaceb651478539edf9dd38eef309bf9cf61",
+        "bytes": 177955083
+      },
+      "zusatz-3.json": {
+        "sha256": "be97360863387c83a580e39e4320837e28d33913da4b1fcae7a0e7bf534df12d",
+        "bytes": 56750345
+      },
+      "faehranleger.json": {
+        "sha256": "3b1efd8d181ab85b750427c7102848cfc1aa50bf857ccb98b8c0e6519dcf44dd",
+        "bytes": 53961365,
+        "task": "T-0029",
+        "nodes": "scripts/faehranleger_knoten.py"
+      },
+      "abbiegeverbote.json": {
+        "sha256": "db8f13c4cef22cfffb791dd0f67c991f7940713a6ea6640615592d3a5b7d5844",
+        "bytes": 28614055,
+        "task": "T-0030",
+        "query": "scripts/abbiegeverbote.overpass"
+      }
+    }
+  }
+}

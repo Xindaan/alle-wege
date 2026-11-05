@@ -1,0 +1,193 @@
+{
+  "stand": "2026-11-03",
+  "knoten": 460743,
+  "profile": {
+    "kanten": 25982,
+    "richtungen": {
+      "unbeschraenkt": 15710,
+      "limitiert": 12687,
+      "unbekannt": 898
+    }
+  },
+  "gepruefteRouten": 24,
+  "vollstaendigeMonotoniePruefungen": 4,
+  "reichweite": [
+    {
+      "richtung": "von",
+      "tempo": 130,
+      "zweiStundenOrte": 69
+    },
+    {
+      "richtung": "von",
+      "tempo": 160,
+      "zweiStundenOrte": 82
+    },
+    {
+      "richtung": "von",
+      "tempo": 200,
+      "zweiStundenOrte": 91
+    },
+    {
+      "richtung": "nach",
+      "tempo": 130,
+      "zweiStundenOrte": 69
+    },
+    {
+      "richtung": "nach",
+      "tempo": 160,
+      "zweiStundenOrte": 79
+    },
+    {
+      "richtung": "nach",
+      "tempo": 200,
+      "zweiStundenOrte": 90
+    }
+  ],
+  "routen": [
+    {
+      "richtung": "von",
+      "ort": "Hamburg",
+      "tempo": 130,
+      "minuten": 164.35
+    },
+    {
+      "richtung": "von",
+      "ort": "Freiburg im Breisgau",
+      "tempo": 130,
+      "minuten": 438.78
+    },
+    {
+      "richtung": "von",
+      "ort": "Westerland",
+      "tempo": 130,
+      "minuten": 373.27
+    },
+    {
+      "richtung": "von",
+      "ort": "Königs Wusterhausen",
+      "tempo": 130,
+      "minuten": 31.44
+    },
+    {
+      "richtung": "von",
+      "ort": "Hamburg",
+      "tempo": 160,
+      "minuten": 151.56
+    },
+    {
+      "richtung": "von",
+      "ort": "Freiburg im Breisgau",
+      "tempo": 160,
+      "minuten": 404.99
+    },
+    {
+      "richtung": "von",
+      "ort": "Westerland",
+      "tempo": 160,
+      "minuten": 356.17
+    },
+    {
+      "richtung": "von",
+      "ort": "Königs Wusterhausen",
+      "tempo": 160,
+      "minuten": 31.31
+    },
+    {
+      "richtung": "von",
+      "ort": "Hamburg",
+      "tempo": 200,
+      "minuten": 140.49
+    },
+    {
+      "richtung": "von",
+      "ort": "Freiburg im Breisgau",
+      "tempo": 200,
+      "minuten": 374.21
+    },
+    {
+      "richtung": "von",
+      "ort": "Westerland",
+      "tempo": 200,
+      "minuten": 341.36
+    },
+    {
+      "richtung": "von",
+      "ort": "Königs Wusterhausen",
+      "tempo": 200,
+      "minuten": 31.19
+    },
+    {
+      "richtung": "nach",
+      "ort": "Hamburg",
+      "tempo": 130,
+      "minuten": 162.99
+    },
+    {
+      "richtung": "nach",
+      "ort": "Freiburg im Breisgau",
+      "tempo": 130,
+      "minuten": 438.09
+    },
+    {
+      "richtung": "nach",
+      "ort": "Westerland",
+      "tempo": 130,
+      "minuten": 373.24
+    },
+    {
+      "richtung": "nach",
+      "ort": "Königs Wusterhausen",
+      "tempo": 130,
+      "minuten": 31.67
+    },
+    {
+      "richtung": "nach",
+      "ort": "Hamburg",
+      "tempo": 160,
+      "minuten": 149.78
+    },
+    {
+      "richtung": "nach",
+      "ort": "Freiburg im Breisgau",
+      "tempo": 160,
+      "minuten": 404.05
+    },
+    {
+      "richtung": "nach",
+      "ort": "Westerland",
+      "tempo": 160,
+      "minuten": 356.07
+    },
+    {
+      "richtung": "nach",
+      "ort": "Königs Wusterhausen",
+      "tempo": 160,
+      "minuten": 31.67
+    },
+    {
+      "richtung": "nach",
+      "ort": "Hamburg",
+      "tempo": 200,
+      "minuten": 138.32
+    },
+    {
+      "richtung": "nach",
+      "ort": "Freiburg im Breisgau",
+      "tempo": 200,
+      "minuten": 373.02
+    },
+    {
+      "richtung": "nach",
+      "ort": "Westerland",
+      "tempo": 200,
+      "minuten": 339.12
+    },
+    {
+      "richtung": "nach",
+      "ort": "Königs Wusterhausen",
+      "tempo": 200,
+      "minuten": 31.67
+    }
+  ],
+  "treffpunkteOhneZeitlimit": 5
+}

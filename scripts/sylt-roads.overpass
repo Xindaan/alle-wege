@@ -1,0 +1,5 @@
+[out:json][timeout:240];
+(way(54.75,8.20,55.24,9.02)[highway~"^(motorway|trunk|primary|secondary|tertiary|unclassified|residential|living_street|service)(_link)?$"][access!~"^(no|private)$"][vehicle!~"^(no|private)$"][motor_vehicle!~"^(no|private)$"][motorcar!~"^(no|private)$"];
+way(54.75,8.20,55.24,9.02)[highway~"^(motorway|trunk|primary|secondary|tertiary|unclassified|residential|living_street|service)(_link)?$"][motorcar~"^(yes|designated|permissive|destination|customers)$"];
+way(54.75,8.20,55.24,9.02)[highway~"^(motorway|trunk|primary|secondary|tertiary|unclassified|residential|living_street|service)(_link)?$"][motor_vehicle~"^(yes|designated|permissive|destination|customers)$"][motorcar!~"^(no|private)$"];);
+out body;>;out skel qt;

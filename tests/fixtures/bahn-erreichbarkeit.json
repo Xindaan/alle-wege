@@ -1,0 +1,177 @@
+{
+  "one": {
+    "name": "",
+    "lat": 52.52437,
+    "lon": 13.41053,
+    "departure": "2026-11-04T07:00:00Z",
+    "vertexType": "NORMAL"
+  },
+  "all": [
+    {
+      "place": {
+        "name": "Berlin Central Bus Station (ZOB)",
+        "stopId": "al-ShowMeBus_station-191",
+        "importance": 0.0037180727813392878,
+        "lat": 52.50778,
+        "lon": 13.279820999999998,
+        "tz": "Europe/Berlin",
+        "arrival": "2026-11-04T07:33:00Z",
+        "description": "Masurenallee 4-6, Berlin 14057",
+        "vertexType": "TRANSIT",
+        "modes": [
+          "COACH",
+          "BUS"
+        ]
+      },
+      "duration": 33,
+      "k": 2
+    },
+    {
+      "place": {
+        "name": "Leipzig Hauptbahnhof Ostseite",
+        "stopId": "al-ShowMeBus_station-267",
+        "importance": 0.006912825629115105,
+        "lat": 51.34374,
+        "lon": 12.382999000000002,
+        "tz": "Europe/Berlin",
+        "arrival": "2026-11-04T08:51:00Z",
+        "description": "Sachsenseite, 04103 Leipzig, Germany",
+        "vertexType": "TRANSIT",
+        "modes": [
+          "HIGHSPEED_RAIL",
+          "LONG_DISTANCE",
+          "COACH",
+          "REGIONAL_RAIL",
+          "SUBURBAN",
+          "TRAM",
+          "BUS"
+        ]
+      },
+      "duration": 111,
+      "k": 2
+    },
+    {
+      "place": {
+        "name": "Berlin Hauptbahnhof",
+        "stopId": "at-Railway-Current-Reference-Data-2026_de:11000:900003200:1:51",
+        "importance": 0.03556062653660774,
+        "lat": 52.52498,
+        "lon": 13.369114000000001,
+        "level": -2.0,
+        "tz": "Europe/Berlin",
+        "arrival": "2026-11-04T07:16:00Z",
+        "vertexType": "TRANSIT",
+        "modes": [
+          "HIGHSPEED_RAIL",
+          "LONG_DISTANCE",
+          "COACH",
+          "NIGHT_RAIL",
+          "REGIONAL_RAIL",
+          "SUBURBAN",
+          "SUBWAY",
+          "TRAM",
+          "BUS"
+        ]
+      },
+      "duration": 16,
+      "k": 1
+    },
+    {
+      "place": {
+        "name": "Berlin Hauptbahnhof",
+        "stopId": "at-Railway-Current-Reference-Data-2026_de:11000:900003200:2:52",
+        "importance": 0.03556062653660774,
+        "lat": 52.52499,
+        "lon": 13.369186000000003,
+        "level": -2.0,
+        "tz": "Europe/Berlin",
+        "arrival": "2026-11-04T07:16:00Z",
+        "vertexType": "TRANSIT",
+        "modes": [
+          "HIGHSPEED_RAIL",
+          "LONG_DISTANCE",
+          "COACH",
+          "NIGHT_RAIL",
+          "REGIONAL_RAIL",
+          "SUBURBAN",
+          "SUBWAY",
+          "TRAM",
+          "BUS"
+        ]
+      },
+      "duration": 16,
+      "k": 1
+    },
+    {
+      "place": {
+        "name": "Berlin Hauptbahnhof",
+        "stopId": "at-Railway-Current-Reference-Data-2026_de:11000:900003200:2:53",
+        "importance": 0.03556062653660774,
+        "lat": 52.52501300000001,
+        "lon": 13.369410500000003,
+        "level": -2.0,
+        "tz": "Europe/Berlin",
+        "arrival": "2026-11-04T07:16:00Z",
+        "vertexType": "TRANSIT",
+        "modes": [
+          "HIGHSPEED_RAIL",
+          "LONG_DISTANCE",
+          "COACH",
+          "NIGHT_RAIL",
+          "REGIONAL_RAIL",
+          "SUBURBAN",
+          "SUBWAY",
+          "TRAM",
+          "BUS"
+        ]
+      },
+      "duration": 16,
+      "k": 1
+    },
+    {
+      "place": {
+        "name": "Berlin Hauptbahnhof",
+        "stopId": "at-Railway-Current-Reference-Data-2026_de:11000:900003200:3:54",
+        "importance": 0.03556062653660774,
+        "lat": 52.525024,
+        "lon": 13.369492000000003,
+        "level": -2.0,
+        "tz": "Europe/Berlin",
+        "arrival": "2026-11-04T07:16:00Z",
+        "vertexType": "TRANSIT",
+        "modes": [
+          "HIGHSPEED_RAIL",
+          "LONG_DISTANCE",
+          "COACH",
+          "NIGHT_RAIL",
+          "REGIONAL_RAIL",
+          "SUBURBAN",
+          "SUBWAY",
+          "TRAM",
+          "BUS"
+        ]
+      },
+      "duration": 16,
+      "k": 1
+    },
+    {
+      "place": {
+        "name": "Neuruppin, Ev. Schule",
+        "stopId": "de-DELFI_de:12068:900205495::1",
+        "importance": 1.5574014469166286e-06,
+        "lat": 52.91788499999999,
+        "lon": 12.8082,
+        "tz": "Europe/Berlin",
+        "arrival": "2026-11-04T08:54:00Z",
+        "description": "Bushalt Regattastraße vor Karl-Liebknecht-Straße",
+        "vertexType": "TRANSIT",
+        "modes": [
+          "BUS"
+        ]
+      },
+      "duration": 114,
+      "k": 5
+    }
+  ],
+  "source": "Transitous /api/v6/one-to-all, retrieved 2026-11-03; requested 2026-11-04T07:00:00Z, maxTravelTime120, maxTransfers4; subset of 33092 entries"
+}

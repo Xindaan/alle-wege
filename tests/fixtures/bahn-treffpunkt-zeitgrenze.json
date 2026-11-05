@@ -1,0 +1,275 @@
+{
+ "source": "https://api.transitous.org/api/v6/one-to-all",
+ "retrieved": "2026-11-05",
+ "start": "2026-11-10T14:45:00Z",
+ "names": [
+  "Berlin",
+  "Freiburg im Breisgau",
+  "Aachen"
+ ],
+ "description": "Gezielter Originalantwort-Ausschnitt (maxTravelTime 360): bester gemeinsamer Treffpunkt sowie beste paarweise Treffpunkte bis 240 Min.; 240er Abfragen aus derselben Antwort auf Dauer <= 240 gekuerzt. Kein vollstaendiger Datensatz.",
+ "queries": {
+  "240": [
+   {
+    "one": {
+     "name": "",
+     "lat": 52.52437,
+     "lon": 13.41053,
+     "departure": "2026-11-10T14:45:00Z",
+     "vertexType": "NORMAL"
+    },
+    "all": []
+   },
+   {
+    "one": {
+     "name": "",
+     "lat": 47.9959,
+     "lon": 7.85222,
+     "departure": "2026-11-10T14:45:00Z",
+     "vertexType": "NORMAL"
+    },
+    "all": [
+     {
+      "place": {
+       "name": "Frankfurt Hauptbahnhof",
+       "stopId": "al-ShowMeBus_station-281",
+       "importance": 0.013712150976061821,
+       "lat": 50.106655,
+       "lon": 8.662580500000002,
+       "tz": "Europe/Berlin",
+       "arrival": "2026-11-10T17:46:00Z",
+       "description": "Frankfurt (Main) Hauptbahnhof, Mannheimer Straße, Gallus, Innenstadt 1, Frankfurt am Main, Hessen, 60329, Deutschland",
+       "vertexType": "TRANSIT",
+       "modes": [
+        "HIGHSPEED_RAIL",
+        "LONG_DISTANCE",
+        "COACH",
+        "NIGHT_RAIL",
+        "REGIONAL_RAIL",
+        "SUBURBAN",
+        "SUBWAY",
+        "TRAM",
+        "BUS"
+       ]
+      },
+      "duration": 181,
+      "k": 1
+     }
+    ]
+   },
+   {
+    "one": {
+     "name": "",
+     "lat": 50.77664,
+     "lon": 6.08342,
+     "departure": "2026-11-10T14:45:00Z",
+     "vertexType": "NORMAL"
+    },
+    "all": [
+     {
+      "place": {
+       "name": "Frankfurt Hauptbahnhof",
+       "stopId": "al-ShowMeBus_station-281",
+       "importance": 0.013712150976061821,
+       "lat": 50.106655,
+       "lon": 8.662580500000002,
+       "tz": "Europe/Berlin",
+       "arrival": "2026-11-10T17:29:00Z",
+       "description": "Frankfurt (Main) Hauptbahnhof, Mannheimer Straße, Gallus, Innenstadt 1, Frankfurt am Main, Hessen, 60329, Deutschland",
+       "vertexType": "TRANSIT",
+       "modes": [
+        "HIGHSPEED_RAIL",
+        "LONG_DISTANCE",
+        "COACH",
+        "NIGHT_RAIL",
+        "REGIONAL_RAIL",
+        "SUBURBAN",
+        "SUBWAY",
+        "TRAM",
+        "BUS"
+       ]
+      },
+      "duration": 164,
+      "k": 3
+     }
+    ]
+   }
+  ],
+  "360": [
+   {
+    "one": {
+     "name": "",
+     "lat": 52.52437,
+     "lon": 13.41053,
+     "departure": "2026-11-10T14:45:00Z",
+     "vertexType": "NORMAL"
+    },
+    "all": [
+     {
+      "place": {
+       "name": "Fulda Bahnhof",
+       "stopId": "de-DELFI_de:06631:11049",
+       "importance": 0.0025849775411188602,
+       "lat": 50.554905,
+       "lon": 9.684168999999999,
+       "level": 1,
+       "tz": "Europe/Berlin",
+       "arrival": "2026-11-10T18:49:00Z",
+       "vertexType": "TRANSIT",
+       "modes": [
+        "HIGHSPEED_RAIL",
+        "LONG_DISTANCE",
+        "REGIONAL_RAIL",
+        "BUS"
+       ]
+      },
+      "duration": 244,
+      "k": 2
+     },
+     {
+      "place": {
+       "name": "Frankfurt Hauptbahnhof",
+       "stopId": "al-ShowMeBus_station-281",
+       "importance": 0.013712150976061821,
+       "lat": 50.106655,
+       "lon": 8.662580500000002,
+       "tz": "Europe/Berlin",
+       "arrival": "2026-11-10T19:52:00Z",
+       "description": "Frankfurt (Main) Hauptbahnhof, Mannheimer Straße, Gallus, Innenstadt 1, Frankfurt am Main, Hessen, 60329, Deutschland",
+       "vertexType": "TRANSIT",
+       "modes": [
+        "HIGHSPEED_RAIL",
+        "LONG_DISTANCE",
+        "COACH",
+        "NIGHT_RAIL",
+        "REGIONAL_RAIL",
+        "SUBURBAN",
+        "SUBWAY",
+        "TRAM",
+        "BUS"
+       ]
+      },
+      "duration": 307,
+      "k": 2
+     }
+    ]
+   },
+   {
+    "one": {
+     "name": "",
+     "lat": 47.9959,
+     "lon": 7.85222,
+     "departure": "2026-11-10T14:45:00Z",
+     "vertexType": "NORMAL"
+    },
+    "all": [
+     {
+      "place": {
+       "name": "Fulda Bahnhof",
+       "stopId": "de-DELFI_de:06631:11049",
+       "importance": 0.0025849775411188602,
+       "lat": 50.554905,
+       "lon": 9.684168999999999,
+       "level": 1,
+       "tz": "Europe/Berlin",
+       "arrival": "2026-11-10T19:16:00Z",
+       "vertexType": "TRANSIT",
+       "modes": [
+        "HIGHSPEED_RAIL",
+        "LONG_DISTANCE",
+        "REGIONAL_RAIL",
+        "BUS"
+       ]
+      },
+      "duration": 271,
+      "k": 1
+     },
+     {
+      "place": {
+       "name": "Frankfurt Hauptbahnhof",
+       "stopId": "al-ShowMeBus_station-281",
+       "importance": 0.013712150976061821,
+       "lat": 50.106655,
+       "lon": 8.662580500000002,
+       "tz": "Europe/Berlin",
+       "arrival": "2026-11-10T17:46:00Z",
+       "description": "Frankfurt (Main) Hauptbahnhof, Mannheimer Straße, Gallus, Innenstadt 1, Frankfurt am Main, Hessen, 60329, Deutschland",
+       "vertexType": "TRANSIT",
+       "modes": [
+        "HIGHSPEED_RAIL",
+        "LONG_DISTANCE",
+        "COACH",
+        "NIGHT_RAIL",
+        "REGIONAL_RAIL",
+        "SUBURBAN",
+        "SUBWAY",
+        "TRAM",
+        "BUS"
+       ]
+      },
+      "duration": 181,
+      "k": 1
+     }
+    ]
+   },
+   {
+    "one": {
+     "name": "",
+     "lat": 50.77664,
+     "lon": 6.08342,
+     "departure": "2026-11-10T14:45:00Z",
+     "vertexType": "NORMAL"
+    },
+    "all": [
+     {
+      "place": {
+       "name": "Fulda Bahnhof",
+       "stopId": "de-DELFI_de:06631:11049",
+       "importance": 0.0025849775411188602,
+       "lat": 50.554905,
+       "lon": 9.684168999999999,
+       "level": 1,
+       "tz": "Europe/Berlin",
+       "arrival": "2026-11-10T19:16:00Z",
+       "vertexType": "TRANSIT",
+       "modes": [
+        "HIGHSPEED_RAIL",
+        "LONG_DISTANCE",
+        "REGIONAL_RAIL",
+        "BUS"
+       ]
+      },
+      "duration": 271,
+      "k": 4
+     },
+     {
+      "place": {
+       "name": "Frankfurt Hauptbahnhof",
+       "stopId": "al-ShowMeBus_station-281",
+       "importance": 0.013712150976061821,
+       "lat": 50.106655,
+       "lon": 8.662580500000002,
+       "tz": "Europe/Berlin",
+       "arrival": "2026-11-10T17:29:00Z",
+       "description": "Frankfurt (Main) Hauptbahnhof, Mannheimer Straße, Gallus, Innenstadt 1, Frankfurt am Main, Hessen, 60329, Deutschland",
+       "vertexType": "TRANSIT",
+       "modes": [
+        "HIGHSPEED_RAIL",
+        "LONG_DISTANCE",
+        "COACH",
+        "NIGHT_RAIL",
+        "REGIONAL_RAIL",
+        "SUBURBAN",
+        "SUBWAY",
+        "TRAM",
+        "BUS"
+       ]
+      },
+      "duration": 164,
+      "k": 3
+     }
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,249 @@
+{
+  "reachability": [
+    {
+      "name": "Berlin",
+      "direction": "from",
+      "minutes": 120,
+      "cities": 83,
+      "median": 87.90214999999998,
+      "max": 119.71319999999994
+    },
+    {
+      "name": "Berlin",
+      "direction": "to",
+      "minutes": 120,
+      "cities": 82,
+      "median": 88.5744,
+      "max": 119.63647000000003
+    },
+    {
+      "name": "Reutlingen",
+      "direction": "from",
+      "minutes": 120,
+      "cities": 156,
+      "median": 79.96153,
+      "max": 119.81822999999999
+    },
+    {
+      "name": "Reutlingen",
+      "direction": "to",
+      "minutes": 120,
+      "cities": 163,
+      "median": 80.21185000000001,
+      "max": 119.92758000000005
+    }
+  ],
+  "places": [
+    {
+      "name": "Gärtringen",
+      "snapKm": 0.021,
+      "reachableNodes": 460743,
+      "mainland": true
+    },
+    {
+      "name": "Schleiz",
+      "snapKm": 0.041,
+      "reachableNodes": 460743,
+      "mainland": true
+    },
+    {
+      "name": "Zollgrün",
+      "snapKm": 0.031,
+      "reachableNodes": 460743,
+      "mainland": true
+    },
+    {
+      "name": "Lehnitz",
+      "snapKm": 0.029,
+      "reachableNodes": 460743,
+      "mainland": true
+    },
+    {
+      "name": "Westerland",
+      "snapKm": 0.031,
+      "reachableNodes": 460743,
+      "mainland": true
+    },
+    {
+      "name": "Tanna",
+      "snapKm": 0.073,
+      "reachableNodes": 460743,
+      "mainland": true
+    },
+    {
+      "name": "Pfakofen",
+      "snapKm": 0.019,
+      "reachableNodes": 460743,
+      "mainland": true
+    },
+    {
+      "name": "Burgk",
+      "snapKm": 0.062,
+      "reachableNodes": 460743,
+      "mainland": true
+    },
+    {
+      "name": "Heidesee",
+      "snapKm": 0.016,
+      "reachableNodes": 460743,
+      "mainland": true
+    }
+  ],
+  "sylt": [
+    {
+      "von": "Westerland",
+      "nach": "Hamburg",
+      "art": "autozug",
+      "minutes": 211.22229000000004,
+      "used": [
+        "autozug"
+      ]
+    },
+    {
+      "von": "Hamburg",
+      "nach": "Westerland",
+      "art": "autozug",
+      "minutes": 212.52095999999997,
+      "used": [
+        "autozug"
+      ]
+    },
+    {
+      "von": "Westerland",
+      "nach": "Hamburg",
+      "art": "faehre",
+      "minutes": 272.2055499999995,
+      "used": [
+        "faehre"
+      ]
+    },
+    {
+      "von": "Hamburg",
+      "nach": "Westerland",
+      "art": "faehre",
+      "minutes": 271.87308000000013,
+      "used": [
+        "faehre"
+      ]
+    },
+    {
+      "von": "Westerland",
+      "nach": "Hamburg",
+      "art": "both",
+      "minutes": 211.22229000000004,
+      "used": [
+        "autozug"
+      ]
+    },
+    {
+      "von": "Hamburg",
+      "nach": "Westerland",
+      "art": "both",
+      "minutes": 212.52095999999997,
+      "used": [
+        "autozug"
+      ]
+    },
+    {
+      "von": "Westerland",
+      "nach": "Hamburg",
+      "art": "none",
+      "minutes": null,
+      "used": []
+    },
+    {
+      "von": "Hamburg",
+      "nach": "Westerland",
+      "art": "none",
+      "minutes": null,
+      "used": []
+    }
+  ],
+  "flows": [
+    {
+      "name": "Reutlingen",
+      "largestShare": 0.15027032423715608,
+      "coloredShare": 0.842111545916053
+    },
+    {
+      "name": "München",
+      "largestShare": 0.1577169919022101,
+      "coloredShare": 0.8150834630151734
+    }
+  ],
+  "date": "2026-11-03",
+  "nodes": 460743,
+  "edges": 628977,
+  "cities": 971,
+  "motorwayReferenceKmh": 130,
+  "directedSectionsAbove115": 20541,
+  "onewayEdges": 304256,
+  "tests": "6 real route pairs: connectivity, direction, path sums, distance plausibility, slowdown monotonicity; all candidate minimax ranking",
+  "routes": [
+    {
+      "from": "Berlin",
+      "to": "Hamburg",
+      "shortestKm": 280.8,
+      "fastestMinutes": 152.3,
+      "slowMinutes": 293.9,
+      "sourceSnapKm": 0.068,
+      "destinationSnapKm": 0.142
+    },
+    {
+      "from": "Berlin",
+      "to": "München",
+      "shortestKm": 581,
+      "fastestMinutes": 297.8,
+      "slowMinutes": 593.9,
+      "sourceSnapKm": 0.068,
+      "destinationSnapKm": 0.305
+    },
+    {
+      "from": "Köln",
+      "to": "Frankfurt am Main",
+      "shortestKm": 176.5,
+      "fastestMinutes": 103.6,
+      "slowMinutes": 188.8,
+      "sourceSnapKm": 0.227,
+      "destinationSnapKm": 0.266
+    },
+    {
+      "from": "Hamburg",
+      "to": "München",
+      "shortestKm": 708.5,
+      "fastestMinutes": 388.4,
+      "slowMinutes": 728.7,
+      "sourceSnapKm": 0.142,
+      "destinationSnapKm": 0.305
+    },
+    {
+      "from": "Leipzig",
+      "to": "Dresden",
+      "shortestKm": 111.9,
+      "fastestMinutes": 73.8,
+      "slowMinutes": 124.3,
+      "sourceSnapKm": 0.152,
+      "destinationSnapKm": 0.318
+    },
+    {
+      "from": "Frankfurt am Main",
+      "to": "Stuttgart",
+      "shortestKm": 179.1,
+      "fastestMinutes": 115.8,
+      "slowMinutes": 194.8,
+      "sourceSnapKm": 0.266,
+      "destinationSnapKm": 0.036
+    }
+  ],
+  "meeting": {
+    "city": "Schkeuditz",
+    "times": [
+      98.88929999999998,
+      194.19852999999983,
+      208.15006999999994
+    ],
+    "max": 208.15006999999994,
+    "sum": 501.23789999999974
+  },
+  "status": "passed"
+}

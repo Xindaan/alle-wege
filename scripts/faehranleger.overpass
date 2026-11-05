@@ -1,0 +1,10 @@
+// T-0029: befahrbare Ortsstrassen im Umkreis von 1500 m um die Faehranleger (KNOTEN = Liste aus scripts/faehranleger_knoten.py).
+// Uebernommen werden in prepare_data.py nur die Wege auf dem kuerzesten Pfad vom Anleger zum vorhandenen Netz.
+[out:json][timeout:600];
+node(id:KNOTEN)->.e;
+(
+  way(around.e:1500)[highway~"^(motorway|trunk|primary|secondary|tertiary|unclassified|residential|living_street|service|road)(_link)?$"][access!~"^(no|private)$"][motor_vehicle!~"^(no|private)$"][motorcar!~"^(no|private)$"];
+  way(around.e:1500)[highway~"^(motorway|trunk|primary|secondary|tertiary|unclassified|residential|living_street|service|road)(_link)?$"][motor_vehicle~"^(yes|designated|permissive|destination)$"][motorcar!~"^(no|private)$"];
+  way(around.e:1500)[highway~"^(motorway|trunk|primary|secondary|tertiary|unclassified|residential|living_street|service|road)(_link)?$"][motorcar~"^(yes|designated|permissive|destination)$"];
+);
+out body;>;out skel qt;

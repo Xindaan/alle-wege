@@ -1,0 +1,12 @@
+// T-0003 Zusatz zum Stand 2026-11-02: Kreisstrassen und durch PKW-Freigabe erlaubte Hauptstrassen.
+// Vier Breitenstreifen wie roads.overpass: SOUTH/NORTH ersetzen. Zugang nach Spezifitaet.
+[out:json][timeout:600][maxsize:1073741824];
+area["ISO3166-1"="DE"][admin_level=2]->.de;
+(
+  way(area.de)(SOUTH,5.5,NORTH,15.6)[highway~"^tertiary(_link)?$"][access!~"^(no|private)$"][motor_vehicle!~"^(no|private)$"][motorcar!~"^(no|private)$"];
+  way(area.de)(SOUTH,5.5,NORTH,15.6)[highway~"^tertiary(_link)?$"][motor_vehicle~"^(yes|designated|permissive|destination)$"][motorcar!~"^(no|private)$"];
+  way(area.de)(SOUTH,5.5,NORTH,15.6)[highway~"^tertiary(_link)?$"][motorcar~"^(yes|designated|permissive|destination)$"];
+  way(area.de)(SOUTH,5.5,NORTH,15.6)[highway~"^(motorway|trunk|primary|secondary)(_link)?$"][motor_vehicle~"^(yes|designated|permissive|destination)$"][motorcar!~"^(no|private)$"];
+  way(area.de)(SOUTH,5.5,NORTH,15.6)[highway~"^(motorway|trunk|primary|secondary)(_link)?$"][motorcar~"^(yes|designated|permissive|destination)$"];
+);
+out body;>;out skel qt;

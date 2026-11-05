@@ -1,0 +1,10 @@
+// T-0003: Autofaehren (Wege und Routen-Relationen) im Deutschland-Rechteck. Auswahl in prepare_data.py.
+[out:json][timeout:300];
+(
+  way(47.2,5.5,55.1,15.6)[route=ferry][motor_vehicle~"^(yes|designated|permissive|destination)$"];
+  way(47.2,5.5,55.1,15.6)[route=ferry][motorcar~"^(yes|designated|permissive|destination)$"];
+  relation(47.2,5.5,55.1,15.6)[route=ferry][motor_vehicle~"^(yes|designated|permissive|destination)$"];
+  relation(47.2,5.5,55.1,15.6)[route=ferry][motorcar~"^(yes|designated|permissive|destination)$"];
+)->.r;
+(.r; way(r.r););
+out body;>;out skel qt;

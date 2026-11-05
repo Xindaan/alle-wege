@@ -1,0 +1,1 @@
+[out:json][timeout:90];way(52.27,13.76,52.32,13.82)[highway~"^(motorway|trunk|primary|secondary|tertiary|unclassified|residential|living_street|service)(_link)?$"][access!~"^(no|private)$"][vehicle!~"^(no|private)$"][motor_vehicle!~"^(no|private)$"][motorcar!~"^(no|private)$"];out body;>;out skel qt;

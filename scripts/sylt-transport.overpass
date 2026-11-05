@@ -1,0 +1,3 @@
+[out:json][timeout:180];
+(way(54.75,8.20,55.15,8.90)[railway=rail];way(54.95,8.30,55.15,8.70)[route=ferry];relation(54.95,8.30,55.15,8.70)[route=ferry];);
+out body;>;out body;

@@ -1,0 +1,138 @@
+[
+  {
+    "id": "osm-41753011",
+    "name": "Gärtringen",
+    "lon": 8.9026429,
+    "lat": 48.6419368,
+    "population": 0,
+    "state": "01",
+    "source": "OSM node/41753011",
+    "rail": {
+      "id": "de-DELFI_de:08115:5774",
+      "name": "Gärtringen (Bahnhof)",
+      "lat": 48.6408,
+      "lon": 8.908862
+    }
+  },
+  {
+    "id": "osm-1502918154",
+    "name": "Schleiz",
+    "lon": 11.80891,
+    "lat": 50.5774374,
+    "population": 0,
+    "state": "15",
+    "source": "OSM node/1502918154",
+    "rail": {
+      "id": "de-DELFI_de:16075:2864591::286459100",
+      "name": "Schleiz, Post (Bus)",
+      "lat": 50.57643,
+      "lon": 11.80807
+    }
+  },
+  {
+    "id": "osm-832424012",
+    "name": "Zollgrün",
+    "lon": 11.8301281,
+    "lat": 50.5148999,
+    "population": 0,
+    "state": "15",
+    "source": "OSM node/832424012",
+    "rail": {
+      "id": "de-DELFI_de:16075:2860061::286006100",
+      "name": "Zollgrün, Wartehalle (Bus)",
+      "lat": 50.51465,
+      "lon": 11.82963
+    }
+  },
+  {
+    "id": "osm-240065786",
+    "name": "Lehnitz",
+    "lon": 13.2667,
+    "lat": 52.75,
+    "population": 0,
+    "state": "11",
+    "source": "OSM node/240065786",
+    "rail": {
+      "id": "de-VBB_de:12065:900200006",
+      "name": "S Lehnitz (bei Oranienburg)",
+      "lat": 52.741394,
+      "lon": 13.26328
+    }
+  },
+  {
+    "id": "osm-27385079",
+    "name": "Westerland",
+    "lon": 8.3071734,
+    "lat": 54.9064856,
+    "population": 0,
+    "state": "10",
+    "source": "OSM node/27385079",
+    "island": true,
+    "rail": {
+      "id": "de-DELFI_de:01054:98523",
+      "name": "Westerland (Sylt), Bahnhof/ZOB",
+      "lat": 54.906837,
+      "lon": 8.310925
+    }
+  },
+  {
+    "id": "osm-240095360",
+    "name": "Tanna",
+    "lon": 11.8618578,
+    "lat": 50.4945316,
+    "population": 0,
+    "state": "15",
+    "source": "OSM node/240095360",
+    "rail": {
+      "id": "de-DELFI_de:16075:2860101::286010100",
+      "name": "Tanna, Markt (Bus)",
+      "lat": 50.4938,
+      "lon": 11.85679
+    }
+  },
+  {
+    "id": "osm-46853614",
+    "name": "Pfakofen",
+    "lon": 12.2281244,
+    "lat": 48.8583948,
+    "population": 0,
+    "state": "02",
+    "source": "OSM node/46853614",
+    "rail": {
+      "id": "de-DELFI_de:09375:372:0:1",
+      "name": "Pfakofen, Post (Bus)",
+      "lat": 48.858112,
+      "lon": 12.227472
+    }
+  },
+  {
+    "id": "osm-1502917951",
+    "name": "Burgk",
+    "lon": 11.7184129,
+    "lat": 50.5558516,
+    "population": 0,
+    "state": "15",
+    "source": "OSM node/1502917951",
+    "rail": {
+      "id": "de-DELFI_de:16075:2860981::286098100",
+      "name": "Burgk bei Schleiz, Parkplatz (Bus)",
+      "lat": 50.5568,
+      "lon": 11.72128
+    }
+  },
+  {
+    "id": "osm-240120548",
+    "name": "Heidesee",
+    "lon": 13.789629,
+    "lat": 52.2961734,
+    "population": 0,
+    "state": "11",
+    "source": "OSM node/240120548; Gemeindebezugspunkt Friedersdorf",
+    "rail": {
+      "id": "de-DELFI_de:12061:900260013",
+      "name": "Heidesee: Friedersdorf (LDS), Bahnhof",
+      "lat": 52.289562000000004,
+      "lon": 13.786518
+    }
+  }
+]

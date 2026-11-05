@@ -1,0 +1,14 @@
+// Vier Breitenstreifen: 47-49, 49-51, 51-53, 53-56. SOUTH/NORTH ersetzen.
+[out:json][timeout:600][maxsize:536870912];
+area["ISO3166-1"="DE"][admin_level=2]->.de;
+// Zugang nach Spezifitaet (T-0003): motorcar vor motor_vehicle vor access.
+// access=no + motor_vehicle=yes ist z. B. bei A 72 Leipzig, B 58, B 3 Frankfurt ueblich.
+(
+  way(area.de)(SOUTH,5.5,NORTH,15.6)[highway~"^(motorway|trunk|primary|secondary)(_link)?$"][access!~"^(no|private)$"][motor_vehicle!~"^(no|private)$"][motorcar!~"^(no|private)$"];
+  way(area.de)(SOUTH,5.5,NORTH,15.6)[highway~"^(motorway|trunk|primary|secondary)(_link)?$"][motor_vehicle~"^(yes|designated|permissive|destination)$"][motorcar!~"^(no|private)$"];
+  way(area.de)(SOUTH,5.5,NORTH,15.6)[highway~"^(motorway|trunk|primary|secondary)(_link)?$"][motorcar~"^(yes|designated|permissive|destination)$"];
+)->.roads;
+.roads out skel qt;
+node(w.roads);out skel qt;
+.roads convert route ::id=id(),highway=t["highway"],oneway=t["oneway"],junction=t["junction"],maxspeed=t["maxspeed"],"maxspeed:forward"=t["maxspeed:forward"],"maxspeed:backward"=t["maxspeed:backward"],ref=t["ref"];
+out tags;

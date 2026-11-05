@@ -1,0 +1,9 @@
+// T-0030: Abbiegeverbote (type=restriction) an grossen Knoten: Von- oder Nach-Weg ist Autobahn, Schnell- oder Bundesstrasse
+// (motorway|trunk|primary inkl. _link). Nur Relationen (Mitglieder als IDs); Auswahl und Zuordnung in prepare_data.py.
+[out:json][timeout:900][maxsize:1073741824];
+way(47.2,5.5,55.1,15.6)[highway~"^(motorway|trunk|primary)(_link)?$"]->.gross;
+(
+  rel(bw.gross:"from")[type=restriction];
+  rel(bw.gross:"to")[type=restriction];
+);
+out body;
